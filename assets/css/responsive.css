@@ -1,0 +1,110 @@
+@media only screen and (max-width: 1000px) {
+   .left-menu li a span{
+    display: none !important;
+   }
+   .hero-carousel-caption h1 {
+    font-weight: bolder;
+    font-size: 29px;
+}
+
+.bg-first {
+    background: #56ab2f !important;
+    margin-left: 0px;
+}
+
+  }
+  @media only screen and (max-width: 768px) {
+    .hero-carousel-caption h1 {
+        font-weight: bolder;
+        font-size: 17px;
+    }
+    .carousel-caption p{
+        font-size: 14px;
+    }
+    .btn{
+      left: 10%;
+    }
+    .text-left{
+        font-size: 25px;
+    }
+    .text-left{
+      font-size: 10px;
+    }
+    .text-third{
+      font-size: 8px;
+    }
+    .text-justify{
+      font-size: 10px;
+    }
+    .text-light{
+      font-size: 10px;
+    }
+    
+  }
+  @media only screen and (max-width: 540px){
+    .text-left {
+      font-size: 10px;
+      display: none;
+  }
+  .text-justify {
+    font-size: 10px;
+    display: none;
+}
+.element.style {
+  display: none;
+}
+.element.style {
+  padding: 10px;
+}
+.element.style {
+  padding: 10px;
+}
+ .element.style {
+  display: none;
+}
+.element.style {
+  display: none;
+}
+.element.style {
+  display: none;
+}
+.principal-img {
+  height: 300px !important;
+  margin-left: 100px;
+}
+.text-third {
+  font-size: 19px;
+  margin-left: 101px;
+}
+.btn {
+ display: none;
+}
+.btn {
+  left: 10%;
+  margin-left: 189px;
+}
+
+.btn {
+  left: 10%;
+  margin-left: -30px;
+}
+.text-light {
+  font-size: 20px;
+}
+.element.style {
+  margin-right: -36%;
+  width: 60%;
+}
+.element.style {
+  margin-bottom: 10px;
+}
+.text-third {
+  font-size: 18px;
+  margin-left: 101px;
+}
+.dark-logo{
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+  }

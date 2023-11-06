@@ -1,0 +1,211 @@
+/* ************************************************************
+Base css start
+***************************************************************/
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+ul li{
+    list-style: none !important;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+/* ::placeholder{
+    color: #ffffff58 !important;
+} */
+/*************************************************************
+Base css end
+***************************************************************/
+/*************************************************************
+common css start
+***************************************************************/
+.text-first{
+    color: #56ab2f !important;
+}
+.text-second{
+     color: #222222 !important;
+}
+.text-third{
+     color: #ffffff !important;
+}
+.bg-first{
+   background: #56ab2f !important;
+}
+.bg-second{
+  background: #222222 !important;
+}
+.bg-third{
+ background: #ffffff !important;
+}
+.fs-14{
+    font-size: 14px;
+}
+.first-border{
+    border: 1px solid #56ab2f !important;
+}
+.fs-w{
+    font-weight: bold !important;
+}
+.align-center{
+    text-align: center !important;
+}
+/*************************************************************
+common css end
+***************************************************************/
+/* ------------------------------------------------------------------------------
+                                     home page css start
+--------------------------------------------------------------------------------- */
+/******************************************************
+Topbar start
+********************************************************/
+.topbar{
+    height: 49px !important;
+    line-height: 49px;
+    position: relative;
+    z-index: 111;
+}
+.left-menu li{
+    margin-left: 10px;
+}
+.left-menu li:first-child{
+    margin-left: 0;
+}
+.right-menu li{
+margin-right: 5px;
+}
+.right-menu li:last-child{
+    margin-right: 0;
+}
+.right-menu li:first-child::after{
+    padding-left: 5px;
+}
+/******************************************************
+Topbar end
+********************************************************/
+/******************************************************
+header start
+********************************************************/
+.navbar{
+    position: relative;
+    z-index: 111;
+}
+.nav-bg-educafe{
+    background-color: rgba(253, 255, 251, 0.658);
+}
+.educafe .nav-item .nav-link{
+    font-weight: 500;
+    color: #222222 !important;
+}
+.navbar-nav .active > .nav-link{
+    color: #56ab2f !important;
+}
+/******************************************************
+header end
+******************************************************* */
+/******************************************************
+breadcoump Start
+******************************************************* */
+.breadcump{
+    padding: 10px;
+    background-color: #2222224a;
+    text-align: center;
+}
+
+/******************************************************
+breadcoump End
+******************************************************* */
+/* ------------------------------------------------------------------------------
+                                     Dashboard css start
+--------------------------------------------------------------------------------- */
+.product{
+    padding: 8px;
+    background-color: #55e0153c;
+    border-radius: 6px !important;
+}
+.quantity{
+    text-align: right;
+}
+.stock{
+    padding: 8px;
+    background-color: #e015156f;
+    border-radius: 6px !important;
+}
+.quantity{
+    text-align: right;
+}
+.order{
+    padding: 8px;
+    background-color: #2d7a7a4e;
+    border-radius: 6px !important;
+}
+.quantity{
+    text-align: right;
+}
+.amount-w{
+    width: 22rem;
+    border: none;
+}
+.amount-bg{
+    background-color: #56ab2f;
+}
+.amount{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.date{
+    text-align: center;
+}
+.revenew-w{
+    width: 22rem;
+    border: none;
+}
+
+.revenew-bg{
+    background-color: #1f479c;
+}
+.revenew{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: #ffffff;
+}
+/* ------------------------------------------------------------------------------
+                                     Dashboard css End
+--------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------
+                                     Brand css start
+--------------------------------------------------------------------------------- */
+.brand_e{
+    text-align: end;
+}
+.brand_b{
+    text-align: center;
+    box-sizing: border-box;
+    padding: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border: 1px solid #0c0c0c79;
+}
+.center{
+    text-align: center;
+    color: #56ab2f;
+    background-color: #56ab2f;
+}
+/* ------------------------------------------------------------------------------
+                                     Brand css End
+--------------------------------------------------------------------------------- */
+
+.div-hide{
+    display: none;
+}

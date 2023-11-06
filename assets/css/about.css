@@ -1,0 +1,24 @@
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev {
+    background: #56ab2f;
+    color: white;
+    height: 60px;
+    width: 38px;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 103% !important;
+}
+.owl-carousel .owl-nav button.owl-next {
+    right: 46% !important;
+}
+.owl-carousel .owl-nav button.owl-prev {
+    left: 46% !important;
+}
+.owl-carousel .owl-nav button.owl-next:hover {
+    border: 1px solid #56ab2f;
+    color: #56ab2f !important;
+}
+.owl-carousel .owl-nav button.owl-prev:hover {
+    border: 1px solid #56ab2f;
+    color: #56ab2f !important;
+}
