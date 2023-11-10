@@ -86,9 +86,9 @@ if ($_GET['o'] == 'add') {
                             </div>
                             <!--/form-group-->
                             <div class="form-group">
-                                <label for="clientContact" class="col-sm-2 control-label">Client Address</label>
+                                <label for="clientContact" class="col-sm-2 control-label">Client Contact</label>
                                 <div class="col-sm-10">
-                                    <input type="text" class="form-control" id="clientContact" name="clientContact" placeholder="Contact Address" autocomplete="off" />
+                                    <input type="text" class="form-control" id="clientContact" name="clientContact" placeholder="Client Contact" autocomplete="off" />
                                 </div>
                             </div>
                             <!--/form-group-->

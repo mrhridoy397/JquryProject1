@@ -66,7 +66,7 @@
         }
          
         if (isset($_POST['update'])) {
-            $pass = $_POST['Password'];
+            $pass = md5($_POST['Password']);
             echo $pass;
             $email = $_POST['email'];
             echo $email;
